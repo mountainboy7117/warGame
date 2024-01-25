@@ -186,7 +186,10 @@ function war() {
     }, 1000);
     window.setTimeout(function() {
         audio.play();
-    }, 1000);
+    }, 1800);
+    window.setTimeout(function() {
+        audio.play();
+    }, 2000);
 }
 function greater() {
     console.log("greater");
